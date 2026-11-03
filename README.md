@@ -61,7 +61,7 @@ codyssey_all_E1-1/
 - [x] 포트 매핑 2회 및 브라우저 접속 — 6절
 - [x] 바인드 마운트 연결 및 변경된 페이지 확인 — 7절
 - [x] 볼륨 생성 및 컨테이너 삭제 전후 데이터 유지 — 8절
-- [x] Git 사용자·기본 브랜치 설정, GitHub 원격 연결 확인 — 9절
+- [x] Git 사용자·기본 브랜치 설정, GitHub 원격 연결 및 커밋 목록 기록 — 9절
 
 ## 3. 터미널 기본 조작
 
@@ -364,6 +364,16 @@ user.email=<마스킹>
 ![Git 설정 및 원격 연결](image/git_config.png)
 
 `init.defaultbranch=master`는 새 저장소의 기본값이며, 이 저장소의 원격 추적 설정은 main입니다. Git은 로컬 변경 이력·브랜치 관리 도구이고 GitHub는 원격 저장소 공유·협업 서비스입니다.
+
+### 커밋 목록
+
+VS Code의 Git 그래프에서 `main` 브랜치의 커밋 목록을 확인했습니다. 캡처에는 `Initial commit`, `도커 및 증명 스크린샷 첨부`, `이미지파일 변경`, `문서 수정` 등의 커밋이 표시됩니다.
+
+![VS Code Git 그래프의 커밋 목록](image/커밋목록.png)
+
+원격 저장소에 반영된 커밋은 [GitHub main 브랜치 커밋 히스토리](https://github.com/byeongchan/codyssey_all_E1-1/commits/main/)에서 확인할 수 있습니다.
+
+### 다른 PC에서 재현하기
 
 다른 PC에서 재현할 때는 본인의 정보로 설정합니다. 다음은 재현용 명령이며 기존 실습 출력이 아닙니다.
 
